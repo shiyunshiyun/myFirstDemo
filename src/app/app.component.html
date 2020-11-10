@@ -17,7 +17,14 @@
 
 <div class="content" role="main">
   <!-- <h3>{{title}}</h3> -->
-  <app-heroes></app-heroes>
+  <!-- <app-heroes></app-heroes> -->
+  <nav>
+    <button routerLink='/heroes'>Heroes</button>
+    <button routerLink='/article' style="margin-left: 30px;">Article</button>
+
+  </nav>
+  <router-outlet></router-outlet>
+  <app-messages></app-messages>
 </div>
 
 
