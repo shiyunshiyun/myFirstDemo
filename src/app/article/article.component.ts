@@ -16,10 +16,12 @@ export class ArticleComponent implements OnInit {
   text: any;
   value: any;
   values: any;
+  tempArr = []
   constructor() { }
 
   ngOnInit(): void {
     // this.temp = this.word.replace(/之前/g, '<span style="background-color: red;" class="highlight">之前</span>');
+    this.tempArr = []
   }
 
   search(){
